@@ -76,7 +76,7 @@ export default function Home() {
             <section id="react" className={style.section}>
               <h1 className="mb-4 text-center text-medium">React</h1>
               <a href="https://pt.wikipedia.org/wiki/React_(JavaScript)" target="_blanc">
-                <Image className="rounded-full m-4" src={react} width={150} height={300} alt="" priority/>
+                <Image className="rounded-full m-4 hover:shadow-[0_3px_1px_1px_rgba(255,255,255)]" src={react} width={150} height={300} alt="" priority/>
               </a>
               <p className="w-3/4 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam excepturi neque veniam voluptatem ipsa vitae culpa unde reiciendis perferendis quo placeat quis ex eius, assumenda soluta rem blanditiis ad. Non.</p>
             </section>
@@ -84,18 +84,24 @@ export default function Home() {
  
         <section id="tail" className={style.section}>
           <h1 className="mb-4 text-center text-medium">Tailwind</h1>
-          <Image className="rounded-full m-4" src={tail} width={200} height={300} alt=""  priority></Image>
+          <a href="https://en.wikipedia.org/wiki/Tailwind_CSS">
+            <Image className="rounded-full m-4  hover:shadow-[0_3px_1px_1px_rgba(255,255,255)]" src={tail} width={200} height={300} alt=""  priority></Image>
+          </a>
           <p className="w-3/4 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, illum. Optio consectetur repellendus, cupiditate recusandae quae rerum laboriosam non labore nemo assumenda numquam vel expedita eveniet, fuga dicta doloremque quibusdam?</p></section>
       
         <section id="next" className={style.section}>
           <h1 className="mb-4 text-center text-medium">Next</h1>
           <h1 className="mb-4 text-center ">Next</h1>
-          <Image className="rounded-full m-4" src={next} width={200} height={300} alt=""  priority></Image>
+          <a href="https://en.wikipedia.org/wiki/Next.js">
+            <Image className="rounded-full m-4  hover:shadow-[0_3px_1px_1px_rgba(255,255,255)]" src={next} width={200} height={300} alt=""  priority></Image>
+          </a>
           <p className="w-3/4 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis ut, dignissimos exercitationem libero facilis molestias magni cum. Illo quaerat numquam natus unde, deserunt in delectus consequuntur odio dolore accusantium maxime?</p></section>
 
         <section id="jquery" className={style.section}>
           <h1 className="mb-4 text-center text-medium">Jquery</h1>
-          <Image className="rounded-full m-4" src={jquery} width={200} height={300} alt=""  priority></Image>
+          <a href="https://en.wikipedia.org/wiki/JQuery">
+            <Image className="rounded-full m-4  hover:shadow-[0_3px_1px_1px_rgba(255,255,255)]" src={jquery} width={200} height={300} alt=""  priority></Image>
+          </a>
           <p className="w-3/4 text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil totam corrupti ea eum possimus culpa velit illo mollitia dolore cumque excepturi provident reiciendis nemo, alias, sapiente facilis iure ipsa molestiae.</p></section>
       
       </div>

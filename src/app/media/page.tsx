@@ -49,7 +49,7 @@ const media = () =>
     }
     const style = {
         container: "flex flex-col flex-wrap",
-        content: "flex flex-col bg-cinza text-white p-4 rounded items-center gap-3",
+        content: "flex flex-col bg-cinza text-white p-4 rounded items-center gap-3 mb-10",
     }
     return(
         <>
