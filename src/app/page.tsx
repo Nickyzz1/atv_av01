@@ -31,7 +31,7 @@ export default function Home() {
     btn:"bg-gradient-to-r from-black to-cinza w-full p-2 text-center text-white rounded hover:bg-black",
     h1:"bg-gradient-to-r from-black to-cinza w-full p-8 text-center text-white rounded",
     p:"w-3/4 text-center m-4 p-2 bg-white",
-    section: "flex justify-center flex-col items-center m-20 bg-gradient-to-r from-black to-cinza text-white p-4 rounded w-[320px] self-center shadow-[0_5px_33px_1px_rgba(255,255,255)] hover:scale-[1.05] ease-[cubic-bezier(0.95,0.05,0.795,0.035)] cursor-pointer"
+    section: "flex justify-center flex-col items-center m-20 bg-gradient-to-r from-black to-cinza text-white p-4 rounded w-[320px] self-center shadow-[0_15px_33px_1px_rgba(0,0,0)] hover:scale-[1.05] ease-[cubic-bezier(0.95,0.05,0.795,0.035)] cursor-pointer"
     // box:"bg-amareloEscuro h-auto w-60 flex-wrap justify-center items-center",
     // content: "flex flex-row flex-wrap"
 
