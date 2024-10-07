@@ -1,6 +1,7 @@
 "use client" // sempre que usar um hook
 import React, {useState} from "react"
 import { Tilt } from 'react-tilt'
+import Draggable from 'react-draggable'; 
 
 const media = () =>
 {
@@ -48,13 +49,14 @@ const media = () =>
             }
     }
     const style = {
-        container: "flex flex-col flex-wrap",
+        container: "flex flex-col flex-wrap cursor-grab",
         content: "flex flex-col bg-cinza text-white p-4 rounded items-center gap-3 mb-10",
     }
     return(
         <>
         <div className="min-h-screen h-auto flex flex-col justify-center items-center bg-azul text-white">
         <h1 className="text-center text-large m-6">Calculando média</h1>
+        <Draggable>
             <div className={style.container}>
                 <div className={style.content}>
                     <p>{!isNaN(resp ?? NaN) ? isAprovado : msgError2}</p>
@@ -71,6 +73,7 @@ const media = () =>
                     </div>
                 </div>
             </div>
+            </Draggable>
             
         </div>
         </>
