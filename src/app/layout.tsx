@@ -38,7 +38,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${comic.variable} h-screen antialiased font-comic`}>
+        className={`${comic.variable} h-screen antialiased font-comic bg-azul`}>
 
           <Menu op1="home" op2="imc" op3="média"/>
           

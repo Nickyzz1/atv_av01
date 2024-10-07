@@ -31,7 +31,7 @@ export default function Home() {
     btn:"bg-gradient-to-r from-black to-cinza w-full p-2 text-center text-white rounded hover:bg-black",
     h1:"bg-gradient-to-r from-black to-cinza w-full p-8 text-center text-white rounded",
     p:"w-3/4 text-center m-4 p-2 bg-white",
-    section: "m-6 flex justify-center flex-col items-center m-20 bg-gradient-to-r from-black to-cinza text-white p-4 rounded w-2/4 self-center shadow-[0_5px_33px_1px_rgba(255,255,255)]"
+    section: "flex justify-center flex-col items-center m-20 bg-gradient-to-r from-black to-cinza text-white p-4 rounded w-[320px] self-center shadow-[0_5px_33px_1px_rgba(255,255,255)] hover:scale-[1.05] ease-[cubic-bezier(0.95,0.05,0.795,0.035)] cursor-pointer"
     // box:"bg-amareloEscuro h-auto w-60 flex-wrap justify-center items-center",
     // content: "flex flex-row flex-wrap"
 
@@ -72,27 +72,30 @@ export default function Home() {
 
     <div className="flex flex-col justify-center  m-12">
        
-          <section id="react" className={style.section}>
-            <h1 className="mb-4 text-center">React</h1>
-            <Image className="rounded-full m-4" src={react} width={300} height={300} alt="" priority/>
-            <p className="w-3/4 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam excepturi neque veniam voluptatem ipsa vitae culpa unde reiciendis perferendis quo placeat quis ex eius, assumenda soluta rem blanditiis ad. Non.</p>
-          </section>
-  
-    
+        
+            <section id="react" className={style.section}>
+              <h1 className="mb-4 text-center text-medium">React</h1>
+              <a href="https://pt.wikipedia.org/wiki/React_(JavaScript)" target="_blanc">
+                <Image className="rounded-full m-4" src={react} width={150} height={300} alt="" priority/>
+              </a>
+              <p className="w-3/4 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam excepturi neque veniam voluptatem ipsa vitae culpa unde reiciendis perferendis quo placeat quis ex eius, assumenda soluta rem blanditiis ad. Non.</p>
+            </section>
+
  
         <section id="tail" className={style.section}>
-          <h1 className="mb-4 text-center">Tailwind</h1>
-          <Image className="rounded-full m-4" src={tail} width={300} height={300} alt=""  priority></Image>
+          <h1 className="mb-4 text-center text-medium">Tailwind</h1>
+          <Image className="rounded-full m-4" src={tail} width={200} height={300} alt=""  priority></Image>
           <p className="w-3/4 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, illum. Optio consectetur repellendus, cupiditate recusandae quae rerum laboriosam non labore nemo assumenda numquam vel expedita eveniet, fuga dicta doloremque quibusdam?</p></section>
       
         <section id="next" className={style.section}>
-          <h1 className="mb-4 text-center">Next</h1>
-          <Image className="rounded-full m-4" src={next} width={300} height={300} alt=""  priority></Image>
+          <h1 className="mb-4 text-center text-medium">Next</h1>
+          <h1 className="mb-4 text-center ">Next</h1>
+          <Image className="rounded-full m-4" src={next} width={200} height={300} alt=""  priority></Image>
           <p className="w-3/4 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis ut, dignissimos exercitationem libero facilis molestias magni cum. Illo quaerat numquam natus unde, deserunt in delectus consequuntur odio dolore accusantium maxime?</p></section>
 
         <section id="jquery" className={style.section}>
-          <h1 className="mb-4 text-center">Jquery</h1>
-          <Image className="rounded-full m-4" src={jquery} width={300} height={300} alt=""  priority></Image>
+          <h1 className="mb-4 text-center text-medium">Jquery</h1>
+          <Image className="rounded-full m-4" src={jquery} width={200} height={300} alt=""  priority></Image>
           <p className="w-3/4 text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil totam corrupti ea eum possimus culpa velit illo mollitia dolore cumque excepturi provident reiciendis nemo, alias, sapiente facilis iure ipsa molestiae.</p></section>
       
       </div>
