@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --amareloEscuro: #ccb24c;
+  --laranjaPastel: #f7d683;
+  --amareloPastel: #fffdc0 ;
+  --white: #fffffd ;
+  --azul: #457d97;
+  --black: #000000;
+  --cinza: #252525;
+  --cinzaPreto: #090909;
+}
+
