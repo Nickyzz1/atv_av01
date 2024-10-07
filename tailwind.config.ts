@@ -20,6 +20,15 @@ const config: Config = {
         cinza: "var(--cinza)",
         cinzaPreto: "var(--cinzaPreto)"
       },
+      fontSize: {
+        large:"26px",
+        medium: "24px",
+        small: "16px"
+      },
+      fontFamily: 
+      {
+        comic : "var(--comic)" // no html tem que usar o nome robFont, nn o nome da variável de roboto
+      }
     },
   },
   plugins: [],

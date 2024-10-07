@@ -23,7 +23,7 @@ const imc: React.FC = () =>{
     const style = {
         form: "w-auto h-auto flex flex-wrap items-center justify-center bg-gradient-to-r from-black to-cinza  flex-col text-white rounded-lg p-4 shadow-[0_2px_100px_20px_rgba(255,255,255,0.1)] cursor-grab",
         btn: "bg-cinza text-white rounded p-2 hover:bg-cinza shadow-[0_5px_2px_2px_rgba(255,255,255,0.3)]",
-        center: "flex-wrap h-screen flex justify-center items-center",
+        center: "flex-wrap flex-col h-screen flex justify-center items-center",
         input: "flex-wrap rounded p-4 text-black w-auto",
         title: "",
         label:"m-2",
@@ -56,10 +56,10 @@ const imc: React.FC = () =>{
     return(
         <>
                 <div className={"text-white bg-azul text-center"}>
-                    <h1 className="text-4xl p-4">Calculando o IMC</h1>
                 
                 
                 <div className={style.center}>
+                    <h1 className="text-4xl p-4">Calculando o IMC</h1>
                 <Tilt  options={defaultOptions} >
                     <div className={style.form}>
                                 <h1 className={style.title}>IMC</h1>

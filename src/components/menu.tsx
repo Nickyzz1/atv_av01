@@ -14,8 +14,8 @@ export const Menu = ({op1, op2, op3} :
 ) =>{
     const style = 
     {
-    p:"text-white bg-cinza p-2 rounded hover:bg-amareloEscuro",
-    nav:"flex flex-wrap text-white bg-black gap-3 p-3 text-large flex-row justify-center align-center font-comic"
+    p:"text-white bg-cinza p-2 rounded hover:bg-amareloEscuro w-40 text-center font-size-small",
+    nav:"flex flex-wrap text-white bg-black gap-3 p-3 text-large flex-row justify-center align-center"
     }
 
     return(

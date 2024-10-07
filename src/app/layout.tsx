@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import { Menu } from "@/components/menu";
 import { Footer } from "@/components/footer";
+import {Comic_Neue} from "next/font/google";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -14,6 +15,15 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
+
+const comic = Comic_Neue(
+  {
+    weight: ["300", "400", "700"],
+    style: "normal",
+    variable: "--comic",
+    subsets: ["latin"]
+  }
+)
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -28,7 +38,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} h-screen antialiased`}>
+        className={`${comic.variable} h-screen antialiased font-comic`}>
 
           <Menu op1="home" op2="imc" op3="média"/>
           

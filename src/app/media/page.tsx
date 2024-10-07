@@ -53,7 +53,8 @@ const media = () =>
     }
     return(
         <>
-        <div className="min-h-screen h-auto flex justify-center items-center">
+        <div className="min-h-screen h-auto flex flex-col justify-center items-center bg-azul text-white">
+        <h1 className="text-center text-large m-6">Calculando média</h1>
             <div className={style.container}>
                 <div className={style.content}>
                     <p>{!isNaN(resp ?? NaN) ? isAprovado : msgError2}</p>
