@@ -15,8 +15,10 @@ const media = () =>
     const [number4, setNumber4] = useState<string>("");
     const [number5, setNumber5] = useState<string>("");
     const [resp, setResp] = useState<number | undefined >();
+    const [isAprovado, setIsAprovado] = useState< string | undefined >("reprovado");
     
     const msgError= "Digite um número válido"
+    const msgError2= "Digite suas notas para saber se foi aprovado"
  
     const handleSCalculator = () => 
     {
@@ -29,7 +31,18 @@ const media = () =>
             if(!isNaN(n1) && !isNaN(n2)) //se isso for um numero pois nega nn ser um numero "n1??"" == boolean
             {
                 setResp((n1 + n2 + n3 + n4+ n5)/5)
+                let mid = (n1 + n2 + n3 + n4+ n5)/5
+            
+                    if(mid > 6)
+                    {
+                        setIsAprovado("Aprovado")
+                    }
+                    else{
+
+                        setIsAprovado("Reprovado")
+                    }
             }
+            
             else{
                 setResp(undefined)
             }
@@ -43,6 +56,7 @@ const media = () =>
         <div className="min-h-screen h-auto flex justify-center items-center">
             <div className={style.container}>
                 <div className={style.content}>
+                    <p>{!isNaN(resp ?? NaN) ? isAprovado : msgError2}</p>
                     <h1>Média</h1>
                     <input className="rounded p-4 text-black" type="text" placeholder="Nota 1"  value={number1} onChange={(event)=> setNumber1(event.target.value)}/>
                     <input className="rounded p-4 text-black" type="text" placeholder="Nota 2"  value={number2} onChange={(event)=> setNumber2(event.target.value)}/>
