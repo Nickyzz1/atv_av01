@@ -20,7 +20,7 @@ export default function Home() {
   return (
     <>
 
-    <div className="min-h-screen h-auto">
+    <div className="min-h-screen h-auto scroll-smooth ">
       <div className={style.container}>
         <div className={style.content}>
           <div className={style.box}>
