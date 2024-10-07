@@ -78,7 +78,7 @@ export default function Home() {
               <a href="https://pt.wikipedia.org/wiki/React_(JavaScript)" target="_blanc">
                 <Image className="rounded-full m-4 hover:shadow-[0_3px_1px_1px_rgba(255,255,255)]" src={react} width={150} height={300} alt="" priority/>
               </a>
-              <p className="w-3/4 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam excepturi neque veniam voluptatem ipsa vitae culpa unde reiciendis perferendis quo placeat quis ex eius, assumenda soluta rem blanditiis ad. Non.</p>
+              <p className="w-3/4 text-center">React is the library for web and native user interfaces. Build user interfaces out of individual pieces called components written in JavaScript.</p>
             </section>
 
  
@@ -87,7 +87,7 @@ export default function Home() {
           <a href="https://en.wikipedia.org/wiki/Tailwind_CSS">
             <Image className="rounded-full m-4  hover:shadow-[0_3px_1px_1px_rgba(255,255,255)]" src={tail} width={200} height={300} alt=""  priority></Image>
           </a>
-          <p className="w-3/4 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, illum. Optio consectetur repellendus, cupiditate recusandae quae rerum laboriosam non labore nemo assumenda numquam vel expedita eveniet, fuga dicta doloremque quibusdam?</p></section>
+          <p className="w-3/4 text-center">Tailwind CSS is a utility-first CSS framework for rapidly building modern websites without ever leaving your HTML.</p></section>
       
         <section id="next" className={style.section}>
           <h1 className="mb-4 text-center text-medium">Next</h1>
@@ -95,14 +95,14 @@ export default function Home() {
           <a href="https://en.wikipedia.org/wiki/Next.js">
             <Image className="rounded-full m-4  hover:shadow-[0_3px_1px_1px_rgba(255,255,255)]" src={next} width={200} height={300} alt=""  priority></Image>
           </a>
-          <p className="w-3/4 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis ut, dignissimos exercitationem libero facilis molestias magni cum. Illo quaerat numquam natus unde, deserunt in delectus consequuntur odio dolore accusantium maxime?</p></section>
+          <p className="w-3/4 text-center">Next is a React framework for building full-stack web applications. You use React Components to build user interfaces, and Next.js for additional features and optimizations.</p></section>
 
         <section id="jquery" className={style.section}>
           <h1 className="mb-4 text-center text-medium">Jquery</h1>
           <a href="https://en.wikipedia.org/wiki/JQuery">
             <Image className="rounded-full m-4  hover:shadow-[0_3px_1px_1px_rgba(255,255,255)]" src={jquery} width={200} height={300} alt=""  priority></Image>
           </a>
-          <p className="w-3/4 text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil totam corrupti ea eum possimus culpa velit illo mollitia dolore cumque excepturi provident reiciendis nemo, alias, sapiente facilis iure ipsa molestiae.</p></section>
+          <p className="w-3/4 text-center">What is jQuery? jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers.</p></section>
       
       </div>
 
