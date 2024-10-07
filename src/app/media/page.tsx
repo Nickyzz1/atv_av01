@@ -33,7 +33,7 @@ const media = () =>
                 setResp((n1 + n2 + n3 + n4+ n5)/5)
                 let mid = (n1 + n2 + n3 + n4+ n5)/5
             
-                    if(mid > 6)
+                    if(mid > 7)
                     {
                         setIsAprovado("Aprovado")
                     }
